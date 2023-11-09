@@ -8,6 +8,11 @@ void main() {
   const count = 23; // inferred as integer automatically by compiler
   
   int hexValue = 0xEADEBAEE;
+
+  int l = 20;
+  int b = 10;
+
+  print("The sum of $l and $b is ${l + b}");
   
   // Numbers: double
   double percentage = 93.4;
@@ -17,11 +22,25 @@ void main() {
   // Strings
   String name = 'Henry';
   const company = 'Google';
+  String s5 = 'This is going to be a very ling String. '
+              'This is just a sample String demo in dart';
   
+  // String Interpolation
+  // + is not to be used on strings
+  String name = "Kevin";
+  String message = "My name is $name";
+  print("The number of characters in String $name is ${name.length}.")
   
   // Boolean
   bool isValid = true;
   const isAlive = false;
+
+  // Literals are the values assigned to variables
+  // true;
+  // "john";
+  // 4.5;
+
+
   
   print(score);
   print (isValid);
