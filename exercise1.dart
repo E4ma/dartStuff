@@ -32,4 +32,20 @@ void main() {
   calcShippingCost('ABC', 6);
   calcShippingCost('PQR', 6);
   calcShippingCost('APT', 6);
+
+    // Loops
+    // For Loop
+    // for(init; condition; increment/decrement){
+    // i++ -> i=i+1
+    // i-- -> i=i-1
+    // i+=2 -> i=i+2
+    //   }
+    // infinite loop
+    // for(int i=0; i<10; i--) becos of infinite # less than 10
+    for(int i=0; i<10; i++) {
+      // initialized
+      // condition => as long as i<=10
+      // increment since starting from 0
+      print('Hello World ${i+1}');
+    }
 }
